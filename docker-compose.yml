@@ -12,4 +12,7 @@ services:
       - ./data/caddy/data:/data
       - ./data/caddy/config:/config
     restart: unless-stopped
-
+    networks:
+      - cadddy
+networks:
+   caddy:
