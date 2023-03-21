@@ -16,3 +16,7 @@ http://grafana.Example.com {
     redir https://grafana.Example.com
 
 }
+
+http://Ejemplo.es {
+    redir https://url
+}
